@@ -59,21 +59,21 @@ const stats = [
 ══════════════════════════════════════════════════════ */
 const initiatives = [
   {
-    img: '/src/assets/images/education-program.jpeg',
+    img: '/images/education-program.jpeg',
     alt: 'Students in education support program',
     title: 'Education Support',
     body: 'Our education support program provides resources, mentorship, and scholarships to empower students and enhance learning opportunities.',
     cropClass: 'object-center',
   },
   {
-    img: '/src/assets/images/health-outreach-1.jpeg',
+    img: '/images/health-outreach-1.jpeg',
     alt: 'Health outreach program in the community',
     title: 'Health Outreach',
     body: 'Through health outreach initiatives, we connect communities with essential health services and promote wellness and preventive care.',
     cropClass: 'object-[center_32%]',
   },
   {
-    img: '/src/assets/images/community-dev.jpeg',
+    img: '/images/community-dev.jpeg',
     alt: 'Community development project in progress',
     title: 'Community Development',
     body: 'Our community development projects focus on sustainable practices to improve living conditions and enhance local economies.',
@@ -86,14 +86,14 @@ const initiatives = [
 ══════════════════════════════════════════════════════ */
 const stories = [
   {
-    img: '/src/assets/images/community-outreach-1.jpeg',
+    img: '/images/community-outreach-1.jpeg',
     alt: 'Foundation team during community outreach program',
     category: 'Community',
     title: 'New Beginnings',
     body: 'Through our community outreach efforts, families are gaining access to resources that are changing their lives for the better.',
   },
   {
-    img: '/src/assets/images/health-outreach-2.jpeg',
+    img: '/images/health-outreach-2.jpeg',
     alt: 'Community members receiving health services',
     category: 'Health',
     title: 'Health Revolution',
@@ -115,7 +115,7 @@ export default function Home() {
         {/* LAYER 1 — BACKGROUND */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/community-outreach-1.jpeg"
+            src="/images/community-outreach-1.jpeg"
             alt=""
             aria-hidden="true"
             className="w-full h-full object-cover object-top"
@@ -190,19 +190,19 @@ export default function Home() {
           <div className="mt-auto hidden md:grid grid-cols-3 gap-3 pb-0">
             {[
               {
-                src: '/src/assets/images/community-outreach-1.jpeg',
+                src: '/images/community-outreach-1.jpeg',
                 alt: 'Foundation team during community outreach program',
                 label: 'Community Outreach',
                 cropClass: 'object-center',
               },
               {
-                src: '/src/assets/images/education-program.jpeg',
+                src: '/images/education-program.jpeg',
                 alt: 'Students in education support program',
                 label: 'Education Support',
                 cropClass: 'object-center',
               },
               {
-                src: '/src/assets/images/health-outreach-1.jpeg',
+                src: '/images/health-outreach-1.jpeg',
                 alt: 'Health outreach program in the community',
                 label: 'Health Outreach',
                 cropClass: 'object-[center_35%]',
@@ -339,7 +339,7 @@ export default function Home() {
                 style={{ aspectRatio: '4 / 3' }}
               >
                 <img
-                  src="/src/assets/images/community-about.jpeg"
+                  src="/images/community-about.jpeg"
                   alt="Tosel Foundation team photo"
                   className="w-full h-full object-cover"
                 />

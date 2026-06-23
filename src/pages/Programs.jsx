@@ -21,7 +21,7 @@ const programs = [
     ],
     // TODO: Add real number — e.g. X students supported
     impactLine: 'Impacting students across our communities',
-    img: '/src/assets/images/education-program.jpeg',
+    img: '/images/education-program.jpeg',
     imgAlt: 'Students in education support program',
     bg: 'bg-white',
   },
@@ -39,7 +39,7 @@ const programs = [
     ],
     // TODO: Add real number — e.g. X people reached
     impactLine: 'Connecting communities to essential health services',
-    img: '/src/assets/images/health-outreach-1.jpeg',
+    img: '/images/health-outreach-1.jpeg',
     imgAlt: 'Health outreach program in the community',
     bg: 'bg-[#FAF8F4]',
   },
@@ -57,7 +57,7 @@ const programs = [
     ],
     // TODO: Add real number — e.g. X projects completed
     impactLine: 'Building sustainable community capacity',
-    img: '/src/assets/images/community-dev.jpeg',
+    img: '/images/community-dev.jpeg',
     imgAlt: 'Community development project in progress',
     bg: 'bg-white',
   },
@@ -91,15 +91,15 @@ const tiers = [
 ══════════════════════════════════════════════════════ */
 const gallery = [
   {
-    src: '/src/assets/images/community-outreach-2.jpeg',
+    src: '/images/community-outreach-2.jpeg',
     alt: 'Foundation volunteers working with community members',
   },
   {
-    src: '/src/assets/images/health-outreach-2.jpeg',
+    src: '/images/health-outreach-2.jpeg',
     alt: 'Community members receiving health services',
   },
   {
-    src: '/src/assets/images/community-outreach-1.jpeg',
+    src: '/images/community-outreach-1.jpeg',
     alt: 'Foundation team during community outreach program',
   },
 ]

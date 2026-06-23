@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Link to="/" className="inline-block mb-4">
               <img
-                src="/src/assets/images/foundation-logo.png"
+                src="/images/foundation-logo.png"
                 alt="Tosel Foundation logo"
                 className="h-10 w-auto"
               />

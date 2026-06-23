@@ -54,7 +54,7 @@ export default function Navbar() {
         {/* ── Logo ─────────────────────────────────────── */}
         <Link to="/" className="flex flex-row items-center gap-3 shrink-0">
           <img
-            src="/src/assets/images/foundation-logo.png"
+            src="/images/foundation-logo.png"
             alt="Tosel Foundation logo"
             className="h-9 w-auto object-contain"
           />

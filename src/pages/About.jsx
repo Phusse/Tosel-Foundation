@@ -89,7 +89,7 @@ export default function About() {
                 style={{ height: '380px' }}
               >
                 <img
-                  src="/src/assets/images/community-about.jpeg"
+                  src="/images/community-about.jpeg"
                   alt="Tosel Foundation team photo"
                   className="w-full h-full object-cover object-center rounded-sm"
                 />
@@ -245,7 +245,7 @@ export default function About() {
               style={{ aspectRatio: '4 / 3' }}
             >
               <img
-                src="/src/assets/images/community-outreach-2.jpeg"
+                src="/images/community-outreach-2.jpeg"
                 alt="Foundation volunteers working with community members"
                 className="w-full h-full object-cover rounded-sm"
               />
