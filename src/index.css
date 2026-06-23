@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary — Deep Navy */
+  --color-navy-950: #0a1628;
+  --color-navy-900: #1A3557;
+  --color-navy-800: #1E4A73;
+  --color-navy-700: #2A6090;
+  --color-navy-100: #D0E4F5;
+  --color-navy-50:  #EBF4FC;
+
+  /* Accent — Bright Blue (CTAs, links, highlights) */
+  --color-blue-600: #1a6fc4;
+  --color-blue-500: #2E86DE;
+  --color-blue-400: #4A9AE8;
+  --color-blue-100: #DAEAF9;
+  --color-blue-50:  #EEF6FD;
+
+  /* Green (supporting — impact, programs) */
+  --color-green-700: #1B5E38;
+  --color-green-500: #2D7A4F;
+  --color-green-100: #C8EDD8;
+  --color-green-50:  #E8F7EE;
+
+  /* Neutral */
+  --color-cream-900: #1A1A18;
+  --color-cream-700: #3D3D38;
+  --color-cream-500: #6B6B64;
+  --color-cream-300: #B0AFA5;
+  --color-cream-100: #E8E5DC;
+  --color-cream-50:  #FAF8F4;
+
+  /* Fonts */
+  --font-display: "Lora", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+/* ── Base Styles ──────────────────────────────────── */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-cream-50);
+    color: var(--color-cream-900);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+  }
+}
